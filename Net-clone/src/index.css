@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@layer components{
+    .head{
+        @apply flex  w-[90%] h-20 bg-transparent text-white px-4 justify-between items-center
+    }
+    .footer{
+        @apply flex  w-full h-[200px] bg-slate-900 text-white px-4 justify-center items-center bottom-0
+    }
+    .footer-container{
+        @apply flex  w-[90%] h-[1px]  text-white px-4 justify-between items-center
+    }
+}
