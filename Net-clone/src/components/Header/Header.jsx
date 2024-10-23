@@ -40,11 +40,10 @@ const Header = () => {
             </li>
             <li className="group relative">
               <ArrowDropDownIcon />
-              <div className=" flex-col gap-6  group-hover:flex absolute border-2 border-gray-500  bg-black right-0 hidden rounded-md py-3">
-                <span className="cursor-pointer hover:bg-violet-500 w-full px-10 transition-all duration-200">Hello</span>
-                <span className="cursor-pointer hover:bg-violet-500 w-full px-10 transition-all duration-200">Hello</span>
-                <span className="cursor-pointer hover:bg-violet-500 w-full px-10 transition-all duration-200">Hello</span>
-                <span className="cursor-pointer hover:bg-violet-500 w-full px-10 transition-all duration-200">Hello</span>
+              <div className=" flex-col gap-6  group-hover:flex absolute   bg-[#000000] top-[30px] right-0  hidden rounded-md w-[150px] text-center h-[160px] py-8 border-[0.09px] border-[#333333]">
+                <span className="cursor-pointer hover:text-red-600 w-full  transition-all duration-200">Sign Up</span>
+                <span className="cursor-pointer hover:text-red-600 w-full transition-all duration-200">Help Center</span>
+               
               </div>
             </li>
           </ul>
