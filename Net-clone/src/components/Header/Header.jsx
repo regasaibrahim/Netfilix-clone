@@ -9,20 +9,20 @@ import { Avatar } from "@mui/material";
 const Header = () => {
   return (
     <>
-    <div className="flex flex-row justify-center w-full bg-slate-900 items-center">
+    <div className="flex flex-row justify-center w-full bg-[#141414] items-center">
 
       <div className="head">
-        <div className="flex flex-row  text-3xl">
-          <ul className="flex flex-row gap-6 items-center">
-            <li className="text-gray-50 text-[18px]">
+        <div className=" flex flex-row  text-3xl">
               <img src={Netfilixlogo} alt="" width={100} height={100} />
+          <ul className="hidden lg:flex flex-row gap-6 items-center">
+            <li className="text-white text-[18px]">
             </li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">Home</li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">TVshows</li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">Movies</li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">Latest</li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">My List</li>
-            <li className="text-gray-50 text-[18px] cursor-pointer">
+            <li className="text-white text-[18px] cursor-pointer">Home</li>
+            <li className="text-white text-[18px] cursor-pointer">TVshows</li>
+            <li className="text-white text-[18px] cursor-pointer">Movies</li>
+            <li className="text-white text-[18px] cursor-pointer">Latest</li>
+            <li className="text-white text-[18px] cursor-pointer">My List</li>
+            <li className="text-white text-[18px] cursor-pointer">
               Browse by Language
             </li>
           </ul>

@@ -6,16 +6,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
+}
+@layer base{
+    body{
+        background-color: #000000;
+        color: #ffffff;
+    }
 }
 @layer components{
     .head{
         @apply flex  w-[90%] h-20 bg-transparent text-white px-4 justify-between items-center
     }
     .footer{
-        @apply flex  w-full h-[200px] bg-slate-900 text-white px-4 justify-center items-center bottom-0
+        @apply flex  w-full h-[300px] md:h-[250px] bg-[#141414] text-[#757575] px-4 justify-center items-center bottom-0
     }
     .footer-container{
-        @apply flex  w-[90%] h-[1px]  text-white px-4 justify-between items-center
+        @apply flex w-[98%] lg:w-[90%] flex-nowrap  text-white lg:px-4 justify-between items-center
     }
+    .row__posters{
+        @apply flex flex-row  overflow-y-hidden overflow-x-scroll ml-8
+    }
+    .row__poster{
+        @apply hover:scale-[1.08] max-h-[100px] transition duration-300 ease-in-out  object-contain cursor-pointer 
+    }
+    .row__posterlarge{
+        @apply hover:scale-[1.09] transition duration-300 max-h-[250px]
+    }
+   
 }
